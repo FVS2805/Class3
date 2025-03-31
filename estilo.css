@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(90, 117, 173);
+    background-color: rgb(80, 68, 124);
     font-family: "Montserrat", sans-serif;
     margin: 5%;
     line-height: 1.6;
@@ -17,15 +17,15 @@ main{
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(20,123,54,0.1);
+    box-shadow: 0 0 10px rgba(123, 20, 20, 0.1);
 }
 
 header{
     text-align: center;
-    color: rgb(63, 137, 173);
+    color: rgb(74, 7, 161);
     padding: 20px;
     border-radius: 8px 8px 0 0;
-    background-image: url('./Img/Fondo.jpg');
+    background-image: url('./Img/h.png');
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -48,7 +48,7 @@ header h2{
 }
 
 .container_arreglo_de_fondo{
-    background-color: rgb(175, 207, 207);
+    background-color: rgb(48, 53, 121);
     width: 80%;
     margin: auto;
     position: relative;
@@ -61,7 +61,7 @@ header h2{
     overflow: hidden;
     display: inline-block;
     vertical-align: middle;
-    border: 7px solid #86cccc;
+    border: 7px solid #e8ebeb;
     margin: 5%;
     box-shadow: 0px 0px 20px rgba(134, 189, 202, 0.5);
 }
@@ -85,4 +85,40 @@ img{
     vertical-align: middle;
     margin-left: 1%;
     text-shadow: 0px 0px 20px rgba(0,0,0,0.5);
+}
+
+h3{
+    font-size: 1.4em;
+    margin-top: 20px;
+    color: black;
+}
+section{
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 5px black;
+}
+section hr{
+    border: 0;
+    height: 2px;
+    background: #86cccc;
+    margin: 10px 0;
+}
+ul{
+    list-style: none;
+}
+ul link{
+    padding: 5px 0;
+}
+i{
+    color: rgb(183, 36, 219);
+    margin-right: 8px;
+}
+address p{
+    margin: 5px 0;
+}
+address a{
+    color: rgb(12, 51, 226);
+    text-decoration: none;
 }
